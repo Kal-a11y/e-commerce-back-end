@@ -25,11 +25,11 @@ router.get('/:id', async (req, res) => {
       include:  [{ model: Category},{ model: Tag}],
     });
     res.status(200).json(productData);
-    console.log(`Category data for '${productData.product_name}' has been recieved`)
+    console.log(`Category data for '${productData.product_name}' has been recieved`);
 
   } catch (err) {
     res.status(500).json(err);
-  }
+  };
 });
 
 // create new product
