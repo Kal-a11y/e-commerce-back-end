@@ -53,8 +53,10 @@
   #### View all data 
     GET http://localhost:3001/api/<table_name> 
 
+![image of viewing all data result](./assets/viewAllExample.PNG)
   #### View data by id 
     GET http://localhost:3001/api/<table_name>/<id>
+![image of viewing by id data result](./assets/viewIdExample.PNG)
   #### Create new data
     POST http://localhost:3001/api/<table_name>
      - Insert JSON or Form URL encoded data for new item
@@ -70,14 +72,15 @@
      - tags needs values for
         - id (optional)
         - tag_name
-     
+![image of creating data result](./assets/createExample.PNG)
+
   #### Update data for item with id
     PUT http://localhost:3001/api/<table_name>/<id>
     - Insert JSON or Form URL encoded data for new item (values are same as for create data)
-
+![image of updating data result](./assets/updateExample.PNG)
   #### Delete data for item with id
     DELETE http://localhost:3001/api/<table_name>/<id>
-    
+ ![image of deleting data result](./assets/deleteExample.PNG)   
   ## License
 
   N/A
