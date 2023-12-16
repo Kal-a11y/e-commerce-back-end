@@ -40,7 +40,7 @@
 
   ### Setup 
 
-  The first step after installing all the required environments and modules, is open the folder called `db` and open an integrated terminal at schema.sql. Run `mysql -u root -p` then enter the password you set up for the MySQL shell. Next run `source schema.sql` and then `quit`. Close the terminal, return to root, and open an integrated terminal at server.js. Run `npm run seed` to fill the database with example data. run `npm start` and open Insomnia to use the application. 
+  The first step after installing all the required environments and modules, is open the folder called `db` and open an integrated terminal at schema.sql. Run `mysql -u root -p` then enter the password you set up for the MySQL shell. Next run `source schema.sql` and then `quit`. Close the terminal and return to root. Copy the folder `.env.EXAMPLE` and rename the copy as just `.env`. Fill out the variables with user and passoword created when installing MySQL shell. Next open an integrated terminal at server.js. Run `npm run seed` to fill the database with example data. run `npm start` and open Insomnia to use the application. 
 
   ### Instructions
   Type the following commands into the Insomnia address bar to get intended result.
