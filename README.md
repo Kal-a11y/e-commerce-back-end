@@ -68,7 +68,7 @@
         - product_name
         - price
         - stock
-        - category_id
+        - tagIds
      - tags needs values for
         - id (optional)
         - tag_name
