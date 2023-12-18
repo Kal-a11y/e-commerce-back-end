@@ -80,7 +80,10 @@
 ![image of updating data result](./assets/updateExample.PNG)
   #### Delete data for item with id
     DELETE http://localhost:3001/api/<table_name>/<id>
- ![image of deleting data result](./assets/deleteExample.PNG)   
+ ![image of deleting data result](./assets/deleteExample.PNG) 
+
+ ### Full demo
+ [video demo](./assets/demoVideo.webm)  
   ## License
 
   N/A
